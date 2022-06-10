@@ -1,0 +1,423 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --negro: rgb(43,54,58);
+    --azul: rgb(74,197,241);
+    --azul-marino: rgb(27,126,193);
+    --morado: rgb(85,103,175);
+
+}
+.principio{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgb(255, 255, 255) ),
+    url(../src/fondo.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment:local;
+   background-size: cover;
+}
+.menu-navegacion{
+    
+    
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    overflow: hidden;
+    
+  
+}
+
+
+.logo{
+    height: 70px;
+}
+
+.logo img{
+    display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    color: var(--negro);
+}
+
+.menu a{
+    font-family: 'Poppins', sans-serif;
+    color: var(--negro);
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all 500ms ease;
+}
+
+.menu a:hover{
+    color: var(--azul-marino);
+    border-bottom: 4px solid var(--azul-marino) ;
+}
+
+
+
+
+
+.container{
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    padding: 0px 80px 0px 0px;
+    align-items: center;
+    
+}
+.izquierda{
+    flex:1;
+}
+.izquierda img{
+    width: 385px;
+    height: 575px;
+}
+.derecha{
+    flex:1;
+}
+.titulo h2{
+    color: var(--azul);
+    font-size: 1.6em;
+}
+.titulo{
+    text-align: center;
+    font-size: 3em;
+    padding: 16px;
+    font-weight: 600;
+    color: var(--azul-marino);
+    font-family: 'Poppins', sans-serif;
+}
+.descripcion{
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align:justify;
+    padding: 10px 50px;
+    color: var(--negro);
+    font-family: 'Poppins', sans-serif;
+}
+.descripcion p{
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    color:var(--morado);
+}
+
+.serv-total1{
+    background-image:  url(../src/FondoSerDe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.serv-nutri h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color:var(--morado);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+
+}
+
+.nutricional{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color:var(--morado);
+    
+    
+}
+.n-i{
+    
+    flex:1;
+    
+}
+.n-i h1{
+    display: flex;
+    justify-content: center;
+}
+.n-i img{
+    width: 30px;
+}
+.list{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+    color: var(--negro);
+}
+p{
+    font-size: 20px;
+}
+.n-d{
+    display: flex;
+    flex:1;
+    justify-content:center
+}
+.n-d img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid white;
+
+}
+
+
+
+/*aparatologia*/
+
+
+
+.aparatologia{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color:var(--morado);
+    
+   
+}
+.a-i{
+    flex:1;
+}
+.a-i h1{
+    display: flex;
+    justify-content: center;
+}
+.a-i img{
+    width: 30px;
+}
+.list-a{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--negro);
+}
+.a-d{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-d img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid white;
+
+}
+
+
+
+
+.tratamientos{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color:var(--morado);
+    
+}
+.t-i{
+    flex:1;
+}
+.t-i h1{
+    display: flex;
+    justify-content: center;
+}
+.t-i img{
+    width: 30px;
+}
+.list-t{
+    display: flex;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--negro);
+    margin-top: 70px;
+}
+.t-d{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t-d img{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+
+
+
+.farmacologicos{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color:var(--morado);
+    
+}
+.f-i{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-d{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+.f-d img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+
+
+.consulta h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--morado);
+    font-size: 3em;
+    font-weight: 800;
+}
+.consultas{
+height: 100vh;
+display: flex;
+padding: 60px 80px ;
+justify-content: space-between;
+font-family: 'Poppins', sans-serif;
+
+}
+.consultas h3{
+    font-size: 2em;
+    padding: 20px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--azul);
+}
+.consultas h4{
+    font-size: 2.0em;
+    text-align: center;
+    font-weight: 900;
+    padding: 50px;
+}
+.consultas li{
+    font-family:'Poppins', sans-serif;
+    font-size: 1.5em;
+    padding: 15px;
+    list-style-position: inside;
+    color: white;
+}
+.c-i{
+    background-color: rgba(0, 0, 0, 0.3) ;
+    border-radius: 20px;
+    width: 40%;
+    height: 100%;
+}
+.c-i h4{
+    
+    padding: 140px 0 0 0;
+}
+.c-d{
+    background-color: rgba(0, 0, 0, 0.3) ;
+    border-radius: 20px;
+    width: 40%;
+    height: 100%;
+}
+
+
+
+
+footer{
+    height:34vh;
+    background-color: var(--azul);
+   /* background-image:  url(../src/footer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 20px 20px;
+    font-family:'Poppins', sans-serif; 
+}
+.fo-i{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+    
+}
+.fo-i img{
+    width: 35px;
+    margin-right: 20px;
+}
+.desc{
+    padding: 20px 0;
+    font-size: 1.1em;
+    font-family:'Poppins', sans-serif;
+
+}
+.fo-i h1{
+}
+.fo-c{
+    font-family:'Poppins', sans-serif; 
+    
+}
+.dir{
+    font-family:'Poppins', sans-serif; 
+    font-size: 1.1em;
+    padding: 20px 0px;
+}
+.fo-d{
+
+}
+.fo-d iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.img{
+    display: flex;
+    
+}
+footer h2{
+    font-size: 1em;
+    color:white;
+}
+.derechos{
+    grid-column: 1/4;
+    text-align: center;
+    font-family:'Poppins', sans-serif; 
+}

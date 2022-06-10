@@ -1,0 +1,699 @@
+@media screen and (min-width:914px) and (max-width:1024px){
+    .container{
+    padding: 0px 0px 0px 0px;
+    }
+    .izquierda img{
+        width: 305px;
+        height: 475px;
+    }
+    .fo-d iframe{
+        width: 80%;
+        height: 80%;
+    }
+    .consultas li{
+        padding: 10px;
+    }
+    .c-i h4{
+        padding: 100px 0px 0px 0px;
+    }
+    footer{
+        height: 40vh;
+    }
+}
+@media screen and (min-width:821px) and (max-width:913px){
+    .container{
+    padding: 0px 0px 0px 0px;
+    }
+    .n-i{
+        flex: 2;
+    }
+    .a-i{
+        flex: 2;
+    }
+    .t-i{
+        flex: 2;
+    }
+    .list-t{
+        margin-top: 30px;
+    }
+    .f-i{
+        flex: 2;
+    }
+    .izquierda img{
+        width: 405px;
+        height: 575px;
+    }
+    .fo-d iframe{
+        width: 80%;
+        height: 80%;
+    }
+
+    .consultas li{
+        padding: 10px;
+    }
+    .c-i h4{
+        padding: 100px 0px 0px 0px;
+    }
+    .c-i{
+        width: 45%;
+    }
+    .c-d{
+        width: 45%;
+    }
+    .consultas{
+        height: 50vh;
+    }
+    footer{
+        height: 20vh;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:820px){
+    .container{
+    padding: 0px 0px 0px 0px;
+    }
+    .n-i{
+        flex: 2;
+    }
+    .a-i{
+        flex: 2;
+    }
+    .t-i{
+        flex: 2;
+    }
+    .list-t{
+        margin-top: 30px;
+    }
+    .f-i{
+        flex: 2;
+    }
+    .izquierda img{
+        width: 405px;
+        height: 575px;
+    }
+    .fo-d iframe{
+        width: 80%;
+        height: 80%;
+    }
+
+    .consultas li{
+        padding: 10px;
+    }
+    .c-i h4{
+        padding: 100px 0px 0px 0px;
+    }
+    .c-i{
+        width: 47%;
+    }
+    .c-d{
+        width: 47%;
+    }
+    .consultas{
+        height: 60vh;
+    }
+    .c-i h4{
+        padding: 160px 0 0 0;
+    }
+    footer{
+        height: 25vh;
+    }
+}
+@media screen and (min-width:500px) and (max-width:768px){
+    .container{
+    padding: 0px 60px 0px 60px;
+    flex-direction: column-reverse;
+    height: 70vh;
+    }
+    .nutricional{
+        flex-direction: column;
+    }
+    .aparatologia{
+        flex-direction: column;
+    }
+    .tratamientos{
+        flex-direction: column;
+    }
+    .farmacologicos{
+        flex-direction: column;
+    }
+    .list-t{
+        margin-top: 30px;
+    }
+    
+  
+    .izquierda img{
+        width: 255px;
+        height: 375px;
+    }
+    .fo-d{
+        display: flex;
+        justify-content: center;
+    }
+    .fo-d iframe{
+        width: 80%;
+        height: 70%;
+    }
+
+    .consultas li{
+        padding: 10px;
+    }
+    .c-i h4{
+        padding: 100px 0px 0px 0px;
+    }
+    .c-i{
+        width: 47%;
+    }
+    .c-d{
+        width: 47%;
+    }
+    .consultas{
+        height: 70vh;
+    }
+    .c-i h4{
+        padding: 160px 0 0 0;
+    }
+    footer{
+        height: 26vh;
+    }
+}
+@media screen and (min-width:416px) and (max-width:428px){
+    .container{
+    padding: 0px 0px 0px 0px;
+    flex-direction: column-reverse;
+    height: 93vh;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo img{
+        height: 100px;
+        width: 100px;
+    }
+    .menu{
+        display: none;
+    }
+    .titulo{
+        font-size: 2.4em;
+    }
+    .titulo h2{
+        font-size: 1.6em;
+    }
+    .descripcion{
+        padding: 10px 30px;
+    }
+    .descripcion p{
+        padding: 20px 0px;
+        text-align: none;
+        font-size: 1.3em;
+    }
+    .nutricional{
+        flex-direction: column;
+    }
+    .n-i h1{
+        text-align: center;
+    }
+    .list{
+        flex-direction: column;
+        margin-top: 120px;
+    }
+    .n-d{
+        margin-top: 100px;
+        
+    }
+    .aparatologia{
+        flex-direction: column;
+    }
+    .list-a{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .tratamientos{
+        flex-direction: column;
+    }
+    .t-i h1{
+        text-align: center;
+    }
+    .list-t{
+        flex-direction: column;
+        text-align: left !important;
+        margin-top: 30px;
+    }
+    .t-d img{
+    margin-top: 40px;
+    }
+    
+    .farmacologicos{
+        flex-direction: column;
+    }
+    .f-i{
+        text-align: center;
+    }
+    .f-d{
+        margin-top: 25px;
+    }
+  
+    .izquierda img{
+        width: 255px;
+        height: 375px;
+    }
+    .fo-d{
+        display: flex;
+        justify-content: center;
+    }
+    .fo-d iframe{
+        width: 80%;
+        height: 70%;
+    }
+
+    .consulta{
+        height: 150vh;
+    }
+    .consultas{
+        flex-direction: column;
+        padding: 0 25px;
+    
+    }
+    .consultas li{
+        padding: 10px;
+    }
+    .c-i h4{
+        padding: 80px 0px 0px 0px;
+        margin-bottom: 50px;
+    }
+    .c-i{
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .c-d{
+        width: 100%;
+        margin-top: 80px;
+    }
+    .consultas{
+        height: 70vh;
+    }
+    footer{
+        height: 75vh;
+        padding: 0 30px;
+        grid-template-columns: 100%;
+        text-align: justify;
+    }
+    .derechos{
+        grid-column: 1/2;
+
+    }
+ }
+
+ @media screen and (min-width:413px) and (max-width:415px){
+    .container{
+    padding: 0px 0px 0px 0px;
+    flex-direction: column-reverse;
+    height: 115vh;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo img{
+        height: 100px;
+        width: 100px;
+    }
+    .menu{
+        display: none;
+    }
+    .titulo{
+        font-size: 2.4em;
+    }
+    .titulo h2{
+        font-size: 1.6em;
+    }
+    .descripcion{
+        padding: 10px 30px;
+    }
+    .descripcion p{
+        padding: 20px 0px;
+        text-align: none;
+        font-size: 1.3em;
+    }
+    .nutricional{
+        flex-direction: column;
+    }
+    .n-i h1{
+        text-align: center;
+    }
+    .list{
+        flex-direction: column;
+        margin-top: 120px;
+    }
+    .n-d{
+        margin-top: 100px;
+        
+    }
+    .aparatologia{
+        flex-direction: column;
+    }
+    .list-a{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .tratamientos{
+        flex-direction: column;
+    }
+    .t-i h1{
+        text-align: center;
+    }
+    .list-t{
+        flex-direction: column;
+        text-align: left !important;
+        margin-top: 50px;
+    }
+    .t-d img{
+    margin-top: 40px;
+    }
+    
+    .farmacologicos{
+        flex-direction: column;
+    }
+    .f-i{
+        text-align: center;
+    }
+    .f-d{
+        margin-top: 25px;
+    }
+  
+    .izquierda img{
+        width: 255px;
+        height: 375px;
+    }
+    .fo-d{
+        display: flex;
+        justify-content: center;
+    }
+    .fo-d iframe{
+        width: 80%;
+        height: 70%;
+    }
+
+    .consulta{
+        height: 175vh;
+    }
+    .consultas{
+        flex-direction: column;
+        padding: 0 25px;
+    
+    }
+    .consultas li{
+        padding: 10px;
+    }
+    .c-i h4{
+        padding: 80px 0px 0px 0px;
+        margin-bottom: 50px;
+    }
+    .c-i{
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .c-d{
+        width: 100%;
+        margin-top: 80px;
+    }
+    .consultas{
+        height: 70vh;
+    }
+    footer{
+        height: 79vh;
+        padding: 0 30px;
+        grid-template-columns: 100%;
+        text-align: justify;
+    }
+    .derechos{
+        grid-column: 1/2;
+
+    }
+ }
+
+
+ @media screen and (min-width:391px) and (max-width:412px){
+    .container{
+    padding: 0px 0px 0px 0px;
+    flex-direction: column-reverse;
+    height: 90vh;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo img{
+        height: 100px;
+        width: 100px;
+    }
+    .menu{
+        display: none;
+    }
+    .titulo{
+        font-size: 2.4em;
+    }
+    .titulo h2{
+        font-size: 1.6em;
+    }
+    .descripcion{
+        padding: 10px 30px;
+    }
+    .descripcion p{
+        padding: 20px 0px;
+        text-align: none;
+        font-size: 1.3em;
+    }
+    .nutricional{
+        flex-direction: column;
+    }
+    .n-i h1{
+        text-align: center;
+    }
+    .list{
+        flex-direction: column;
+        margin-top: 120px;
+    }
+    .n-d{
+        margin-top: 100px;
+        
+    }
+    .aparatologia{
+        flex-direction: column;
+    }
+    .list-a{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .tratamientos{
+        flex-direction: column;
+    }
+    .t-i h1{
+        text-align: center;
+    }
+    .list-t{
+        flex-direction: column;
+        text-align: left !important;
+        margin-top: 30px;
+    }
+    .t-d img{
+    margin-top: 40px;
+    }
+    
+    .farmacologicos{
+        flex-direction: column;
+    }
+    .f-i{
+        text-align: center;
+    }
+    .f-d{
+        margin-top: 25px;
+    }
+  
+    .izquierda img{
+        width: 255px;
+        height: 375px;
+    }
+    .fo-d{
+        display: flex;
+        justify-content: center;
+    }
+    .fo-d iframe{
+        width: 80%;
+        height: 70%;
+    }
+
+    .consulta{
+        height: 150vh;
+    }
+    .consultas{
+        flex-direction: column;
+        padding: 0 25px;
+    
+    }
+    .consultas li{
+        padding: 10px;
+    }
+    .c-i h4{
+        padding: 80px 0px 0px 0px;
+        margin-bottom: 50px;
+    }
+    .c-i{
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .c-d{
+        width: 100%;
+        margin-top: 80px;
+    }
+    .consultas{
+        height: 70vh;
+    }
+    footer{
+        height: 75vh;
+        padding: 0 30px;
+        grid-template-columns: 100%;
+        text-align: justify;
+    }
+    .derechos{
+        grid-column: 1/2;
+
+    }
+ }
+
+ @media screen and (max-width:390px){
+    .container{
+    padding: 0px 0px 0px 0px;
+    flex-direction: column-reverse;
+    height: 150vh;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo img{
+        height: 100px;
+        width: 100px;
+    }
+    .menu{
+        display: none;
+    }
+    .titulo{
+        font-size: 2.4em;
+    }
+    .titulo h2{
+        font-size: 1.6em;
+    }
+    .descripcion{
+        padding: 10px 30px;
+    }
+    .descripcion p{
+        padding: 20px 0px;
+        text-align: none;
+        font-size: 1.3em;
+    }
+    .nutricional{
+        flex-direction: column;
+    }
+    .n-i h1{
+        text-align: center;
+    }
+    .list{
+        flex-direction: column;
+        margin-top: 140px;
+    }
+    .n-d{
+        margin-top: 130px;
+        
+    }
+    .aparatologia{
+        flex-direction: column;
+    }
+    .list-a{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .tratamientos{
+        flex-direction: column;
+    }
+    .t-i h1{
+        text-align: center;
+    }
+    .list-t{
+        flex-direction: column;
+        text-align: left !important;
+        margin-top: 50px;
+    }
+    .t-d img{
+    margin-top: 40px;
+    }
+    
+    .farmacologicos{
+        flex-direction: column;
+    }
+    .f-i{
+        text-align: center;
+    }
+    .f-d{
+        margin-top: 25px;
+    }
+  
+    .izquierda img{
+        width: 255px;
+        height: 375px;
+    }
+    .fo-d{
+        display: flex;
+        justify-content: center;
+    }
+    .fo-d iframe{
+        width: 80%;
+        height: 70%;
+    }
+
+    .consulta{
+        height: 190vh;
+    }
+    .consultas{
+        flex-direction: column;
+        padding: 0 25px;
+    
+    }
+    .consultas li{
+        padding: 10px;
+    }
+    .c-i h4{
+        padding: 80px 0px 0px 0px;
+        margin-bottom: 50px;
+    }
+    .c-i{
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .c-d{
+        width: 100%;
+        height: 77vh;
+        margin-top: 60px;
+    }
+    .consultas{
+        height: 70vh;
+    }
+    footer{
+        height: 80vh;
+        padding: 0 30px;
+        grid-template-columns: 100%;
+        text-align: justify;
+    }
+    .derechos{
+        grid-column: 1/2;
+
+    }
+ }
