@@ -437,7 +437,7 @@
  }
 
 
- @media screen and (min-width:391px) and (max-width:412px){
+ @media screen and (min-width:400px) and (max-width:412px){
     .container{
     padding: 0px 0px 0px 0px;
     flex-direction: column-reverse;
@@ -451,6 +451,135 @@
     .logo img{
         height: 100px;
         width: 100px;
+    }
+    .menu{
+        display: none;
+    }
+    .titulo{
+        font-size: 2.4em;
+    }
+    .titulo h2{
+        font-size: 1.6em;
+    }
+    .descripcion{
+        padding: 10px 30px;
+    }
+    .descripcion p{
+        padding: 20px 0px;
+        text-align: none;
+        font-size: 1.3em;
+    }
+    .nutricional{
+        flex-direction: column;
+    }
+    .n-i h1{
+        text-align: center;
+    }
+    .list{
+        flex-direction: column;
+        margin-top: 120px;
+    }
+    .n-d{
+        margin-top: 100px;
+        
+    }
+    .aparatologia{
+        flex-direction: column;
+    }
+    .list-a{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .tratamientos{
+        flex-direction: column;
+    }
+    .t-i h1{
+        text-align: center;
+    }
+    .list-t{
+        flex-direction: column;
+        text-align: left !important;
+        margin-top: 30px;
+    }
+    .t-d img{
+    margin-top: 40px;
+    }
+    
+    .farmacologicos{
+        flex-direction: column;
+    }
+    .f-i{
+        text-align: center;
+    }
+    .f-d{
+        margin-top: 25px;
+    }
+  
+    .izquierda img{
+        width: 255px;
+        height: 375px;
+    }
+    .fo-d{
+        display: flex;
+        justify-content: center;
+    }
+    .fo-d iframe{
+        width: 80%;
+        height: 70%;
+    }
+
+    .consulta{
+        height: 150vh;
+    }
+    .consultas{
+        flex-direction: column;
+        padding: 0 25px;
+    
+    }
+    .consultas li{
+        padding: 10px;
+    }
+    .c-i h4{
+        padding: 80px 0px 0px 0px;
+        margin-bottom: 50px;
+    }
+    .c-i{
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .c-d{
+        width: 100%;
+        margin-top: 80px;
+    }
+    .consultas{
+        height: 70vh;
+    }
+    footer{
+        height: 75vh;
+        padding: 0 30px;
+        grid-template-columns: 100%;
+        text-align: justify;
+    }
+    .derechos{
+        grid-column: 1/2;
+
+    }
+ }
+ @media screen and (min-width:391px) and (max-width:400px){
+    .container{
+    padding: 0px 0px 0px 0px;
+    flex-direction: column-reverse;
+    height: 140vh;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo img{
+        height: 80px;
+        width: 80px;
     }
     .menu{
         display: none;
