@@ -6,6 +6,10 @@
         width: 305px;
         height: 475px;
     }
+    .serv-nutri{
+    
+        margin-bottom: 50px;
+    }
     .fo-d iframe{
         width: 80%;
         height: 80%;
@@ -75,6 +79,10 @@
     .n-i{
         flex: 2;
     }
+    .container img{
+        width: 85%;
+        height: 70%;
+    }
     .a-i{
         flex: 2;
     }
@@ -124,6 +132,22 @@
     flex-direction: column-reverse;
     height: 70vh;
     }
+    .container img{
+        width: 90%;
+        height: 70%;
+    }
+    
+    .nombre h1{
+        font-size: 2.2em;
+    }
+    .nombre h3{
+        font-size: 1.7em;
+
+    }
+    .serv-nutri{
+    margin-top: 260px;
+    }
+
     .nutricional{
         flex-direction: column;
     }
@@ -194,20 +218,21 @@
     .menu{
         display: none;
     }
-    .titulo{
-        font-size: 2.4em;
+    .container img{
+        width: 85%;
+        height: 70%;
     }
-    .titulo h2{
-        font-size: 1.6em;
+    .nombre h1{
+        font-size: 1.5em;
     }
-    .descripcion{
-        padding: 10px 30px;
+    .nombre h3{
+        font-size: 1.2em;
+
     }
-    .descripcion p{
-        padding: 20px 0px;
-        text-align: none;
-        font-size: 1.3em;
-    }
+    
+.serv-nutri{
+    margin-bottom: 100px;
+}
     .nutricional{
         flex-direction: column;
     }
@@ -238,7 +263,7 @@
     .list-t{
         flex-direction: column;
         text-align: left !important;
-        margin-top: 30px;
+        margin-top: 80px;
     }
     .t-d img{
     margin-top: 40px;
@@ -246,6 +271,7 @@
     
     .farmacologicos{
         flex-direction: column;
+        margin-top: 50px;
     }
     .f-i{
         text-align: center;
@@ -268,7 +294,7 @@
     }
 
     .consulta{
-        height: 150vh;
+        height: 210vh;
     }
     .consultas{
         flex-direction: column;
@@ -292,10 +318,10 @@
         margin-top: 80px;
     }
     .consultas{
-        height: 70vh;
+        height: 80vh;
     }
     footer{
-        height: 75vh;
+        height: 120vh;
         padding: 0 30px;
         grid-template-columns: 100%;
         text-align: justify;
@@ -310,33 +336,20 @@
     .container{
     padding: 0px 0px 0px 0px;
     flex-direction: column-reverse;
-    height: 115vh;
+    grid-template-rows: 28vh 10vh 28vh;
+    height: 65vh;
     }
-    .logo{
-        display: flex;
-        justify-content: center;
+    
+    .container img{
+        width: 90%;
+        height: 50%;
+    }
+    .nombre h1{
+        font-size: 1.5em;
+    }
+    .nombre h3{
+        font-size: 1.2em;
 
-    }
-    .logo img{
-        height: 100px;
-        width: 100px;
-    }
-    .menu{
-        display: none;
-    }
-    .titulo{
-        font-size: 2.4em;
-    }
-    .titulo h2{
-        font-size: 1.6em;
-    }
-    .descripcion{
-        padding: 10px 30px;
-    }
-    .descripcion p{
-        padding: 20px 0px;
-        text-align: none;
-        font-size: 1.3em;
     }
     .nutricional{
         flex-direction: column;
@@ -354,6 +367,7 @@
     }
     .aparatologia{
         flex-direction: column;
+        margin-top: 100px;
     }
     .list-a{
         justify-content: center;
@@ -368,7 +382,7 @@
     .list-t{
         flex-direction: column;
         text-align: left !important;
-        margin-top: 50px;
+        margin-top: 80px;
     }
     .t-d img{
     margin-top: 40px;
@@ -379,9 +393,7 @@
     }
     .f-i{
         text-align: center;
-    }
-    .f-d{
-        margin-top: 25px;
+        margin-top: 40px;
     }
   
     .izquierda img{
@@ -398,7 +410,7 @@
     }
 
     .consulta{
-        height: 175vh;
+        height: 170vh;
     }
     .consultas{
         flex-direction: column;
@@ -421,11 +433,8 @@
         width: 100%;
         margin-top: 80px;
     }
-    .consultas{
-        height: 70vh;
-    }
     footer{
-        height: 79vh;
+        height: 90vh;
         padding: 0 30px;
         grid-template-columns: 100%;
         text-align: justify;
@@ -441,33 +450,21 @@
     .container{
     padding: 0px 0px 0px 0px;
     flex-direction: column-reverse;
-    height: 90vh;
+    height: 65vh;
+    grid-template-rows: 28vh 10vh 28vh; 
     }
-    .logo{
-        display: flex;
-        justify-content: center;
+    .container img{
+        width: 90%;
+        height: 60%;
+    }
 
+    
+    .nombre h1{
+        font-size: 1.5em;
     }
-    .logo img{
-        height: 100px;
-        width: 100px;
-    }
-    .menu{
-        display: none;
-    }
-    .titulo{
-        font-size: 2.4em;
-    }
-    .titulo h2{
-        font-size: 1.6em;
-    }
-    .descripcion{
-        padding: 10px 30px;
-    }
-    .descripcion p{
-        padding: 20px 0px;
-        text-align: none;
-        font-size: 1.3em;
+    .nombre h3{
+        font-size: 1.2em;
+
     }
     .nutricional{
         flex-direction: column;
@@ -485,6 +482,7 @@
     }
     .aparatologia{
         flex-direction: column;
+        margin-top: 100px;
     }
     .list-a{
         justify-content: center;
@@ -570,34 +568,23 @@
     .container{
     padding: 0px 0px 0px 0px;
     flex-direction: column-reverse;
-    height: 140vh;
+    height: 70vh;
+    grid-template-rows: 28vh 10vh 28vh; 
     }
-    .logo{
-        display: flex;
-        justify-content: center;
+    .container img{
+        width: 90%;
+        height: 60%;
+    }
+
+    
+    .nombre h1{
+        font-size: 1.4em;
+    }
+    .nombre h3{
+        font-size: 1.1em;
 
     }
-    .logo img{
-        height: 80px;
-        width: 80px;
-    }
-    .menu{
-        display: none;
-    }
-    .titulo{
-        font-size: 2.4em;
-    }
-    .titulo h2{
-        font-size: 1.6em;
-    }
-    .descripcion{
-        padding: 10px 30px;
-    }
-    .descripcion p{
-        padding: 20px 0px;
-        text-align: none;
-        font-size: 1.3em;
-    }
+   
     .nutricional{
         flex-direction: column;
     }
@@ -614,6 +601,7 @@
     }
     .aparatologia{
         flex-direction: column;
+        margin-top: 100px;
     }
     .list-a{
         justify-content: center;
@@ -701,32 +689,23 @@
     padding: 0px 0px 0px 0px;
     flex-direction: column-reverse;
     height: 150vh;
+    height: 65vh;
+    grid-template-rows: 28vh 8vh 28vh; 
     }
-    .logo{
-        display: flex;
-        justify-content: center;
+    .container img{
+        width: 90%;
+        height: 60%;
+    }
 
-    }
-    .logo img{
-        height: 100px;
-        width: 100px;
-    }
-    .menu{
-        display: none;
-    }
-    .titulo{
-        font-size: 2.4em;
-    }
-    .titulo h2{
-        font-size: 1.6em;
-    }
-    .descripcion{
-        padding: 10px 30px;
-    }
-    .descripcion p{
-        padding: 20px 0px;
-        text-align: none;
+    
+    .nombre h1{
         font-size: 1.3em;
+        margin-top: 10px;
+    }
+    .nombre h3{
+        font-size: 1em;
+        margin-bottom: 0;
+
     }
     .nutricional{
         flex-direction: column;
@@ -744,6 +723,7 @@
     }
     .aparatologia{
         flex-direction: column;
+        margin-top: 100px;
     }
     .list-a{
         justify-content: center;
@@ -751,6 +731,7 @@
     }
     .tratamientos{
         flex-direction: column;
+
     }
     .t-i h1{
         text-align: center;
@@ -766,6 +747,7 @@
     
     .farmacologicos{
         flex-direction: column;
+        margin-top: 50px;
     }
     .f-i{
         text-align: center;

@@ -87,7 +87,7 @@
 .img5 { grid-area: img5; }
 .img6 { grid-area: img6; }
 .container img{
-    width: 97%;
+    width: 85%;
     height: 100%;
     justify-content: center;
     margin-left: auto;
@@ -121,6 +121,7 @@
     transform: translateY(150px);
     opacity: 0;
     transition: .5s all ease;
+    margin-bottom: 50px;
 }
 .serv-nutri.active{
     transform: translateY(0);
@@ -168,16 +169,6 @@
 p{
     font-size: 20px;
 }
-.n-d{
-    display: flex;
-    flex:1;
-    justify-content:center
-}
-.n-d img{
-    width: 350px;
-    height: 300px;
-
-}
 
 
 
@@ -218,19 +209,6 @@ p{
     justify-content: space-evenly;
     color: var(--negro);
 }
-.a-d{
-    flex:1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.a-d img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 10px solid var(--morado);
-
-}
 
 
 
@@ -268,19 +246,6 @@ p{
     color: var(--negro);
     margin-top: 70px;
 }
-.t-d{
-    flex:1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.t-d img{
-    
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 10px solid var(--morado);
-}
 
 
 
@@ -307,17 +272,6 @@ p{
     justify-content: center;
     align-items: center;
 }
-.f-d{
-    flex:1;
-    display: flex;
-    justify-content: center;
-}
-.f-d img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 10px solid var(--morado);
-}
 
 
 .consulta{
@@ -326,6 +280,7 @@ p{
     transition: .5s all ease;
     
     background-image: url(../src/fondofigura2.svg);
+    background-repeat: no-repeat;
     
 }
 .consulta.active{
