@@ -113,9 +113,8 @@
 
 .wave{
     
-    background-image: url(../src/wave2.svg);
+    background-image: url(../src/fondofigura.svg);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 .serv-nutri{
     
@@ -326,9 +325,7 @@ p{
     opacity: 0;
     transition: .5s all ease;
     
-    background-image: url(../src/wave.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../src/fondofigura2.svg);
     
 }
 .consulta.active{
