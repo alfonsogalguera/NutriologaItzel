@@ -326,7 +326,7 @@ p{
     opacity: 0;
     transition: .5s all ease;
     
-    background-image: url(../src/wave3.svg);
+    background-image: url(../src/wave.svg);
     background-repeat: no-repeat;
     background-size: cover;
     
