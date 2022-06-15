@@ -279,9 +279,6 @@ p{
     opacity: 0;
     transition: .5s all ease;
     
-    background-image: url(../src/fondofigura2.svg);
-    background-repeat: no-repeat;
-    
 }
 .consulta.active{
     transform: translateY(0);
@@ -305,6 +302,9 @@ display: flex;
 padding: 60px 80px ;
 justify-content: space-between;
 font-family: 'Poppins', sans-serif;
+background-image: url(../src/wave.svg);
+background-repeat: no-repeat;
+background-position-y: 460px;
 
 }
 .consultas h3{
@@ -312,7 +312,7 @@ font-family: 'Poppins', sans-serif;
     padding: 20px;
     font-weight: 800;
     text-align: center;
-    color: var(--azul);
+    color: var(--azul-marino);
 }
 .consultas h4{
     font-size: 2.0em;
@@ -325,10 +325,10 @@ font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
     padding: 15px;
     list-style-position: inside;
-    color: white;
+    color: var(--negro);
 }
 .c-i{
-    background-color: rgba(0, 0, 0, 0.3) ;
+    background-color: rgba(113, 0, 141, 0.3) ;
     border-radius: 20px;
     width: 40%;
     height: 100%;
@@ -338,7 +338,7 @@ font-family: 'Poppins', sans-serif;
     padding: 140px 0 0 0;
 }
 .c-d{
-    background-color: rgba(0, 0, 0, 0.3) ;
+    background-color: rgba(113, 0, 141, 0.3) ;
     border-radius: 20px;
     width: 40%;
     height: 100%;
@@ -349,13 +349,11 @@ font-family: 'Poppins', sans-serif;
 
 footer{
     height:34vh;
-    background-image: url(../src/wave.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     padding: 20px 20px;
-    font-family:'Poppins', sans-serif; 
+    font-family:'Poppins', sans-serif;
+    background-color: var(--azul);
 }
 .fo-i{
     display: flex;

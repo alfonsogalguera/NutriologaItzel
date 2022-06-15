@@ -66,6 +66,7 @@
     }
     .consultas{
         height: 50vh;
+        background-position-y: 500px;
     }
     footer{
         height: 20vh;
@@ -118,6 +119,7 @@
     }
     .consultas{
         height: 60vh;
+        background-position-y: 5800px;
     }
     .c-i h4{
         padding: 160px 0 0 0;
@@ -192,6 +194,7 @@
     }
     .consultas{
         height: 70vh;
+        background-position-y: 600px;
     }
     .c-i h4{
         padding: 160px 0 0 0;
@@ -230,6 +233,10 @@
 
     }
     
+    .wave{
+    
+        background-repeat: repeat;
+    }
 .serv-nutri{
     margin-bottom: 100px;
 }
@@ -299,6 +306,8 @@
     .consultas{
         flex-direction: column;
         padding: 0 25px;
+        background-position-y: 1340px;
+        height: 210vh;
     
     }
     .consultas li{
@@ -316,9 +325,7 @@
     .c-d{
         width: 100%;
         margin-top: 80px;
-    }
-    .consultas{
-        height: 80vh;
+        margin-bottom: 200px;
     }
     footer{
         height: 120vh;
@@ -350,6 +357,10 @@
     .nombre h3{
         font-size: 1.2em;
 
+    }
+    .wave{
+    
+        background-repeat: repeat;
     }
     .nutricional{
         flex-direction: column;
@@ -410,11 +421,13 @@
     }
 
     .consulta{
-        height: 175vh;
+        height: 178vh; 
     }
     .consultas{
+        height: 161vh;
         flex-direction: column;
         padding: 0 25px;
+        background-position-y: 1110px;
     
     }
     .consultas li{
@@ -432,6 +445,7 @@
     .c-d{
         width: 100%;
         margin-top: 80px;
+        margin-bottom: 50px;
     }
     footer{
         height: 90vh;
@@ -465,6 +479,10 @@
     .nombre h3{
         font-size: 1.2em;
 
+    }
+    .wave{
+    
+        background-repeat: repeat;
     }
     .nutricional{
         flex-direction: column;
@@ -583,6 +601,10 @@
     .nombre h3{
         font-size: 1.1em;
 
+    }
+    .wave{
+    
+        background-repeat: repeat;
     }
    
     .nutricional{
@@ -706,6 +728,10 @@
         font-size: 1em;
         margin-bottom: 0;
 
+    }
+    .wave{
+    
+        background-repeat: repeat;
     }
     .nutricional{
         flex-direction: column;
