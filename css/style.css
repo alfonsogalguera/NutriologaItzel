@@ -11,19 +11,11 @@
     --morado: rgb(85,103,175);
 
 }
-.principio{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgb(255, 255, 255) ),
-    url(../src/fondo.jpg);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-attachment:local;
-   background-size: cover;
-}
 .menu-navegacion{
     
     
     width: 100%;
-    height: 14vh;
+    height: 9vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,13 +30,13 @@
 
 
 .logo{
-    height: 70px;
+    height: 50px;
 }
 
 .logo img{
     display: block;
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 
 
@@ -76,57 +68,55 @@
 
 
 .container{
-    width: 100%;
-    height: 87vh;
-    display: flex;
-    padding: 0px 80px 0px 0px;
+    padding: 0px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 33vh 33vh 33vh; 
     align-items: center;
-    
+    margin-top: 10px;
+    grid-template-areas: 
+    "img1 img2 img3"
+    "nombre nombre nombre"
+    "img4 img5 img6"; 
 }
-.izquierda{
-    flex:1;
+.img1 { grid-area: img1; }
+.img2 { grid-area: img2; }
+.img3 { grid-area: img3; }
+.nombre { grid-area: nombre; }
+.img4 { grid-area: img4; }
+.img5 { grid-area: img5; }
+.img6 { grid-area: img6; }
+.container img{
+    width: 97%;
+    height: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-.izquierda img{
-    width: 385px;
-    height: 575px;
+.nombre{
+    display: grid;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
-.derecha{
-    flex:1;
+.nombre h1{
+    color: var(--morado);
+    font-size: 2.5em;
+    margin-top: 25px;
 }
-.titulo h2{
+.nombre h3{
     color: var(--azul);
-    font-size: 1.6em;
-}
-.titulo{
+    font-size: 2em;
     text-align: center;
-    font-size: 3em;
-    padding: 16px;
-    font-weight: 600;
-    color: var(--azul-marino);
-    font-family: 'Poppins', sans-serif;
-}
-.descripcion{
-    font-size: 1.3em;
-    font-weight: 400;
-    text-align:justify;
-    padding: 10px 50px;
-    color: var(--negro);
-    font-family: 'Poppins', sans-serif;
-}
-.descripcion p{
-    font-size: 1.5em;
-    font-weight: 700;
-    text-align: center;
-    padding: 20px;
-    color:var(--morado);
+    margin-bottom: 25px;
+
 }
 
-.serv-total1{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgb(255, 255, 255) ), url(../src/FondoSerDe.jpg);
+.wave{
+    
+    background-image: url(../src/wave2.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-  
 .serv-nutri{
     
     transform: translateY(150px);
@@ -185,10 +175,8 @@ p{
     justify-content:center
 }
 .n-d img{
-    width: 300px;
+    width: 350px;
     height: 300px;
-    border-radius: 50%;
-    border: 10px solid white;
 
 }
 
@@ -241,7 +229,7 @@ p{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 10px solid white;
+    border: 10px solid var(--morado);
 
 }
 
@@ -292,7 +280,7 @@ p{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 10px solid white;
+    border: 10px solid var(--morado);
 }
 
 
@@ -329,7 +317,7 @@ p{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 10px solid white;
+    border: 10px solid var(--morado);
 }
 
 
@@ -337,6 +325,10 @@ p{
     transform: translateY(150px);
     opacity: 0;
     transition: .5s all ease;
+    
+    background-image: url(../src/wave3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 .consulta.active{
@@ -406,7 +398,6 @@ font-family: 'Poppins', sans-serif;
 footer{
     height:34vh;
     background-image: url(../src/wave.svg);
-   /* background-image:  url(../src/footer.jpeg);*/
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
