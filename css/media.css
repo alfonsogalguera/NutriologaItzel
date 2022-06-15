@@ -343,7 +343,7 @@
     .container{
     padding: 0px 0px 0px 0px;
     flex-direction: column-reverse;
-    grid-template-rows: 28vh 10vh 28vh;
+    grid-template-rows: 28vh 7vh 28vh;
     height: 65vh;
     }
     
@@ -353,9 +353,11 @@
     }
     .nombre h1{
         font-size: 1.5em;
+        margin-top: 10px;
     }
     .nombre h3{
         font-size: 1.2em;
+        margin-bottom: 10px;
 
     }
     .wave{
@@ -421,13 +423,14 @@
     }
 
     .consulta{
-        height: 178vh; 
+        height: 170vh; 
     }
     .consultas{
-        height: 161vh;
+        height: 170vh;
         flex-direction: column;
         padding: 0 25px;
-        background-position-y: 1110px;
+        background-position-y: 1035px;
+        justify-content: start;
     
     }
     .consultas li{
@@ -439,13 +442,16 @@
     }
     .c-i{
         width: 100%;
-        margin-top: 40px;
+        margin-top: 0px;
+        height: 40%;
+        margin-bottom: 30px;
         
     }
     .c-d{
         width: 100%;
-        margin-top: 80px;
-        margin-bottom: 50px;
+        margin-top: 0px;
+        height: 40%;
+        margin-bottom: 30px;
     }
     footer{
         height: 90vh;
@@ -465,7 +471,7 @@
     padding: 0px 0px 0px 0px;
     flex-direction: column-reverse;
     height: 65vh;
-    grid-template-rows: 28vh 10vh 28vh; 
+    grid-template-rows: 28vh 7vh 28vh; 
     }
     .container img{
         width: 90%;
@@ -475,9 +481,11 @@
     
     .nombre h1{
         font-size: 1.5em;
+        margin-top: 10px;
     }
     .nombre h3{
         font-size: 1.2em;
+        margin-bottom: 10px;
 
     }
     .wave{
@@ -550,7 +558,9 @@
     .consultas{
         flex-direction: column;
         padding: 0 25px;
-    
+        height: 150vh;
+        background-position-y: 1160px;
+        justify-content: start;
     }
     .consultas li{
         padding: 10px;
@@ -562,14 +572,13 @@
     .c-i{
         width: 100%;
         margin-top: 40px;
+        height: 35%;
         
     }
     .c-d{
         width: 100%;
         margin-top: 80px;
-    }
-    .consultas{
-        height: 70vh;
+        height: 35%;
     }
     footer{
         height: 75vh;
@@ -631,6 +640,7 @@
     }
     .tratamientos{
         flex-direction: column;
+
     }
     .t-i h1{
         text-align: center;
@@ -638,7 +648,6 @@
     .list-t{
         flex-direction: column;
         text-align: left !important;
-        margin-top: 30px;
     }
     .t-d img{
     margin-top: 40px;
@@ -673,6 +682,7 @@
     .consultas{
         flex-direction: column;
         padding: 0 25px;
+        background-position-y: 1110px;
     
     }
     .consultas li{
