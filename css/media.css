@@ -683,7 +683,7 @@
         height: 150vh;
         flex-direction: column;
         padding: 0 25px;
-        background-position-y: 1032px;
+        background-position-y: 990px;
         justify-content: start;
     
     }
@@ -702,7 +702,7 @@
     }
     .c-d{
         width: 100%;
-        margin-top: 80px;
+        margin-top: 30px;
         height: 40%;
     }
     footer{
