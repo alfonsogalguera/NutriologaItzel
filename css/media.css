@@ -559,7 +559,7 @@
         flex-direction: column;
         padding: 0 25px;
         height: 150vh;
-        background-position-y: 1152px;
+        background-position-y: 1000px;
         justify-content: start;
     }
     .consultas li{
@@ -683,7 +683,7 @@
         height: 150vh;
         flex-direction: column;
         padding: 0 25px;
-        background-position-y: 980px;
+        background-position-y: 970px;
         justify-content: start;
     
     }
