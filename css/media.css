@@ -14,6 +14,15 @@
         width: 80%;
         height: 80%;
     }
+    .f-i p{
+        padding: 15px 50px 0;
+    }
+    
+    .consultas{
+   
+    background-position-y: 500px;
+    
+    }
     .consultas li{
         padding: 10px;
     }
@@ -50,6 +59,9 @@
     .fo-d iframe{
         width: 80%;
         height: 80%;
+    }
+    .f-i p{
+        padding: 15px 50px 0;
     }
 
     .consultas li{
@@ -103,6 +115,9 @@
     .fo-d iframe{
         width: 80%;
         height: 80%;
+    }
+    .f-i p{
+        padding: 15px 50px 0;
     }
 
     .consultas li{
@@ -164,6 +179,10 @@
     }
     .list-t{
         margin-top: 30px;
+    }
+    
+    .f-i p{
+        padding: 15px 50px 0;
     }
     
   
@@ -286,10 +305,42 @@
     .f-d{
         margin-top: 25px;
     }
+    .list span{
+        margin-left: 38px;
+    }
+
+
+    .list-a span{
+            margin-left: 8px;
+        }
+
+
+    .list-t .MR{
+            margin-left: 4px;
+        }
+        .list-t .ML{
+            margin-left: 4px;
+        }
+
+
+    .c-i span{
+            margin-left: 32px;
+
+        }
+
+
+    .c-d span{
+            margin-left: 32px;
+            font-size: .8em;
+        }
+
   
     .izquierda img{
         width: 255px;
         height: 375px;
+    }
+    .f-i p{
+        padding: 15px 0 0;
     }
     .fo-d{
         display: flex;
@@ -372,8 +423,12 @@
     }
     .list{
         flex-direction: column;
-        margin-top: 120px;
+        margin-top: 130px;
     }
+    .list span{
+        margin-left: 38px;
+    }
+
     .n-d{
         margin-top: 100px;
         
@@ -386,6 +441,10 @@
         justify-content: center;
         margin-top: 20px;
     }
+    .list-a span{
+        margin-left: 8px;
+    }
+
     .tratamientos{
         flex-direction: column;
     }
@@ -397,6 +456,13 @@
         text-align: left !important;
         margin-top: 80px;
     }
+    .list-t .MR{
+        margin-left: 4px;
+    }
+    .list-t .ML{
+        margin-left: 4px;
+    }
+
     .t-d img{
     margin-top: 40px;
     }
@@ -450,6 +516,15 @@
         margin-bottom: 30px;
         
     }
+    .c-i span{
+        margin-left: 32px;
+
+    }
+    .c-d span{
+        margin-left: 32px;
+        font-size: .8em;
+    }
+
     .c-d{
         width: 100%;
         margin-top: 0px;
@@ -538,8 +613,8 @@
     .f-i{
         text-align: center;
     }
-    .f-d{
-        margin-top: 25px;
+    .f-i p{
+        padding: 15px 0 0;
     }
   
     .izquierda img{
@@ -583,6 +658,35 @@
         margin-top: 80px;
         height: 35%;
     }
+    .list span{
+        margin-left: 38px;
+    }
+
+
+    .list-a span{
+            margin-left: 8px;
+        }
+
+
+    .list-t .MR{
+            margin-left: 4px;
+        }
+        .list-t .ML{
+            margin-left: 4px;
+        }
+
+
+    .c-i span{
+            margin-left: 32px;
+
+        }
+
+
+    .c-d span{
+            margin-left: 32px;
+            font-size: .8em;
+        }
+
     footer{
         height: 75vh;
         padding: 0 30px;
@@ -674,8 +778,8 @@
     .f-i{
         text-align: center;
     }
-    .f-d{
-        margin-top: 25px;
+    .f-i p{
+        padding: 15px 0 0;
     }
   
     .izquierda img{
@@ -812,8 +916,8 @@
     .f-i{
         text-align: center;
     }
-    .f-d{
-        margin-top: 25px;
+    .f-i p{
+        padding: 15px 0 0;
     }
   
     .izquierda img{
@@ -828,6 +932,35 @@
         width: 80%;
         height: 70%;
     }
+    .list span{
+        margin-left: 38px;
+    }
+
+
+    .list-a span{
+            margin-left: 8px;
+        }
+
+
+    .list-t .MR{
+            margin-left: 4px;
+        }
+        .list-t .ML{
+            margin-left: 4px;
+        }
+
+
+    .c-i span{
+            margin-left: 32px;
+
+        }
+
+
+    .c-d span{
+            margin-left: 32px;
+            font-size: .8em;
+        }
+
 
     .consulta{
         height: 190vh;
