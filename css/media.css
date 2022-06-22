@@ -627,7 +627,7 @@
         margin-top: 120px;
     }
     .list span{
-        margin-left: 40px;
+        margin-left: 38px;
     }
     .n-d{
         margin-top: 100px;
@@ -654,6 +654,12 @@
     .list-t{
         flex-direction: column;
         text-align: left !important;
+    }
+    .list-t .MR{
+        margin-left: 4px;
+    }
+    .list-t .ML{
+        margin-left: 4px;
     }
     .t-d img{
     margin-top: 40px;
@@ -689,7 +695,7 @@
         height: 150vh;
         flex-direction: column;
         padding: 0 25px;
-        background-position-y: 960px;
+        background-position-y: 950px;
         justify-content: start;
     
     }
@@ -706,10 +712,18 @@
         height: 40%;
         
     }
+    .c-i span{
+        margin-left: 32px;
+
+    }
     .c-d{
         width: 100%;
         margin-top: 30px;
         height: 40%;
+    }
+    .c-d span{
+        margin-left: 32px;
+        font-size: .8em;
     }
     footer{
         height: 75vh;
