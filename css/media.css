@@ -626,6 +626,9 @@
         flex-direction: column;
         margin-top: 120px;
     }
+    .list span{
+        margin-left: 40px;
+    }
     .n-d{
         margin-top: 100px;
         
@@ -637,6 +640,9 @@
     .list-a{
         justify-content: center;
         margin-top: 20px;
+    }
+    .list-a span{
+        margin-left: 8px;
     }
     .tratamientos{
         flex-direction: column;
